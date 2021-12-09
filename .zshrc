@@ -109,11 +109,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias l='ls -lah --color'
-alias la='ls -lAh --color'
-alias ll='ls -lh --color'
-alias ls='ls -G --color'
-alias lsa='ls -lah --color'
+alias l='ls -lah --color=auto'
+alias la='ls -lAh --color=auto'
+alias ll='ls -lh --color=auto'
+alias ls='ls -G --color=auto'
+alias lsa='ls -lah --color=auto'
 
 export PATH="/usr/bin/ruby:$PATH"
 export PATH="/usr/local/sbin:$PATH"
