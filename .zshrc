@@ -15,7 +15,7 @@ export ZSH="/Users/wangqing/.oh-my-zsh"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="aussiegeek"
-
+#ZSH_THEME="dracula"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -109,11 +109,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias l='ls -lah --color=auto'
-alias la='ls -lAh --color=auto'
-alias ll='ls -lh --color=auto'
-alias ls='ls -G --color=auto'
-alias lsa='ls -lah --color=auto'
+alias l='ls -lah --color'
+alias la='ls -lAh --color'
+alias ll='ls -lh --color'
+alias ls='ls -G --color'
+alias lsa='ls -lah --color'
 
 export PATH="/usr/bin/ruby:$PATH"
 export PATH="/usr/local/sbin:$PATH"
@@ -133,3 +133,9 @@ source ~/.bashrc ~/.bash_profile
 source <(kubectl completion zsh)
 export PATH="/usr/local/opt/php@7.4/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
+
+
+#export PATH="/usr/local/opt/go@1.16/bin:$PATH"
+
+export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
+export JAVA_HOME=/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home                                                                                                                                                                                                                  23:03:52
